@@ -1,0 +1,15 @@
+{
+  "name": "Flutter Web Environment",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.flutter",
+        "Dart-Code.dart-code"
+      ]
+    }
+  },
+  "forwardPorts": [8080],
+  "postCreateCommand": "echo '✅ Entorno listo. Instala Flutter manualmente con el script.'"
+}
